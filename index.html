@@ -31,6 +31,32 @@
             padding: 9px 25px;
             border: none;
         }
+
+        .test {
+            margin-left: auto;
+        }
+
+        .test2 {
+
+            height: 50px;
+            background-color: white;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .test2>i {
+            font-size: 20px;
+            color: #777;
+            margin-left: -30px;
+
+        }
+
+        .test3 {
+            width: 200px;
+            height: 30px;
+        }
     </style>
 </head>
 
@@ -50,11 +76,8 @@
 
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="navbar-search pull-left">
-                        <input type="text" class="rounded-pill search-query" placeholder="Search">
 
-                    </form>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav test me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -69,6 +92,13 @@
                         </li>
 
                     </ul>
+                    <form class="navbar-search pull-left">
+                        <div class="test2">
+                            <input type="text" class="rounded-pill p-3 test3 search-query" placeholder="Search">
+                            <i class="fas fa-search"></i>
+                        </div>
+
+                    </form>
 
                 </div>
             </div>
